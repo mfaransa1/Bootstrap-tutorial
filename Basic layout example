@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">    <!--ensures proper character encoding-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">   <!--makes the page responsive on obile devices  width=device-width sets the width of the page to follow the screen size of the device-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">   <!--bootsrap.mi.css styles the page-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>   <!--jquery.minjs required for bootstrap js-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  <!--bootsrap.min.js enables bootsraps interactive features-->
+</head>
+<body>
+
+<div class="jumbotron text-center"> <!--displays a large heading and a paragraph t,text-center classs centers the text-->
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p>
+</div>
+<div class="container">  <!--holds the page content using a grid section-->
+  <div class="row">  <!--creates horizontal layout with multiple columnx-->
+    <div class="col-sm-4">  <!--creates three-equal width columns each taking 4 out of 12 bootsrap grid spaces-->
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
