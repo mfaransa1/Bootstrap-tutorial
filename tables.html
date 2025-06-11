@@ -1,0 +1,231 @@
+<!--bootstrap tables-->
+<!--basic table-->
+<div class="container">
+  <h2>Basic table</h2>
+  <p>The .table class adds basic styling(light padding and only horizontal dividers)to a table</p>
+  <table class="table">
+    <thead class="jumbotron">
+      <tr>
+        <td>Firstname</td>
+        <td>lastname</td>
+        <td>email</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--striped rows-->
+<div class="container">
+  <h2>striped rows</h2>
+  <p>the .table-striped class adds zebra stripes to a table:</p>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <td>Firstname</td>
+        <td>Lastname</td>
+        <td>email</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@email.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@email.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@email.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--bordered table-->
+<div class="container">
+  <h2>Bordered table</h2>
+  <p>the .table-bordered class adds borders on all sides of the table and cells</p>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <td>Firstname</td>
+        <td>Lastname</td>
+        <td>Email</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@email.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@email.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@email.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--hover rows-->
+<div class="container">
+  <h2>hover rows</h2>
+  <p>the .table-hover class adds hover effect(grey backgrround color)on table rows</p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <td>Firstname</td>
+        <td>Lastname</td>
+        <td>Email</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@email.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@email.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@email.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--condensed table-->
+<div class="container">
+  <h2>Condensed Table</h2>
+  <p>The .table-condensed class makes a table more compact by cutting cell padding in half:</p>
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <td>Firstname</td>
+        <td>Lastname</td>
+        <td>Email</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--contextual classes-->
+<div class="container">
+  <h2>contextual classes</h2>
+  <p>can be used to color table rows(tr)or  table cells(td).This classes can be info,success,active,danger ,warning</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Default</td>
+        <td>Defaultson</td>
+        <td>default@email.com</td>
+      </tr>
+      <tr class="success">  <!--indicates a successful position action-->
+        <td>success</td>
+        <td>Doe</td>
+        <td>john@email.com</td>
+      </tr>
+      <tr class="danger">  <!--indicates a dangerous or potentially negative action-->
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@email.com</td>
+      </tr>
+      <tr class="info"> <!--indicates a neutral informative change or action-->
+        <td>info</td>
+        <td>Dooley</td>
+        <td>july@email.com</td>
+      </tr>
+      <tr class="warning"> <!--indicates a warning that might need attention-->
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="active"> <!--applies hover color to the table row/table cell-->
+        <td>Active</td>
+        <td>Activson</td>
+        <td>act@email.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--Responsive table-->
+<div class="container">
+  <h2>Table</h2>
+  <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>
+  <div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Anna</td>
+        <td>Pitt</td>
+        <td>35</td>
+        <td>New York</td>
+        <td>USA</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
