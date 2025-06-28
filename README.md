@@ -7,15 +7,15 @@ This project is a beginner-friendly guide to understanding [Bootstrap](https://g
 ## 📚 Table of Contents
 
 - [Getting Started](#getting-started)
-- [Grid System](pages/grid-system.html)
-- [Containers](pages/container-vs-container-fluid.html)
-- [Typography](pages/typography.html)
-- [Buttons](pages/buttons.html)
-- [Alerts & Links](pages/alerts-links.html)
-- [Tables](pages/tables.html)
-- [Images](pages/images.html)
-- [Jumbotron](pages/jumbotron.html)
-- [Wells](pages/wells.html)
+- [Grid System](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/grid%20system.html)
+- [Containers](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/container%20vs%20container-fluid.html)
+- [Basic Layout](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/Basic%20layout%20example.html)
+- [Buttons](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/alerts%20links.html)
+- [Alerts & Links](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/alerts%20links.html)
+- [Tables](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/tables.html)
+- [Images](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/images.html)
+- [Jumbotron](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/jumbotron.html)
+- [Wells](https://github.com/mfaransa1/Bootstrap-tutorial/blob/main/wells.html)
 
 ---
 
