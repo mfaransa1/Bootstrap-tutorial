@@ -1,18 +1,29 @@
-Bootstrap Tutorial Guide
-This guide is based on W3Schools' Bootstrap tutorials and covers essential concepts, from grid systems to responsive design.
+# Bootstrap Tutorial Guide
 
-📌 What You'll Learn
-.Getting Started – Installing and setting up Bootstrap.
+This project is a beginner-friendly guide to understanding [Bootstrap](https://getbootstrap.com/), covering core concepts such as layout, components, and responsive design.
 
-.Grid System – Structuring pages with Bootstrap rows and columns.
+---
 
-.Typography – Formatting text for a clean design.
+## 📚 Table of Contents
 
-.Components – Using buttons, alerts, badges, and progress bars.
+- [Getting Started](#getting-started)
+- [Grid System](pages/grid-system.html)
+- [Containers](pages/container-vs-container-fluid.html)
+- [Typography](pages/typography.html)
+- [Buttons](pages/buttons.html)
+- [Alerts & Links](pages/alerts-links.html)
+- [Tables](pages/tables.html)
+- [Images](pages/images.html)
+- [Jumbotron](pages/jumbotron.html)
+- [Wells](pages/wells.html)
 
-.Responsive Design – Making web pages adapt to different screen sizes.
+---
 
-To use Bootstrap, include the following links in your HTML file:
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+## 🚀 Getting Started
+
+To use Bootstrap, include these CDNs in your HTML:
+
+### 📦 Bootstrap 5 (Recommended)
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
